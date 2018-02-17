@@ -82,6 +82,7 @@ body {
 /* right column */
 .column.right {
     width: 405px;
+    height: 258px;
 }
 
 /* Clear floats after the columns */
