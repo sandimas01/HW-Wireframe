@@ -14,10 +14,7 @@ body {
 .header,
 .nav,
 .footer,
-.column,
-.panel-primary,
-.panel-heading,
-.panel-body-content {
+.column {
     padding: 30px;
     margin-bottom: 10px;
     background-color: #ebebeb;
@@ -25,11 +22,45 @@ body {
     color: #777
 }
 
+.panel-body-content {
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+    background-color: #ebebeb;
+    text-align: center;
+    color: #777
+}
 
+
+.panel-primary {
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #ebebeb;
+    text-align: center;
+    color: #777
+}
+
+
+.panel-heading {
+    padding: 25px;
+    margin-bottom: 0px;
+    background-color: #ebebeb;
+    text-align: center;
+    color: #777
+}
+
+.panel-body-heading {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #777;
+    color: #ebebeb;
+    text-align: center;
+}
 
 .panel-body {
-    padding: 30px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
     background-color: #777;
     color: #ebebeb;
     text-align: center;
